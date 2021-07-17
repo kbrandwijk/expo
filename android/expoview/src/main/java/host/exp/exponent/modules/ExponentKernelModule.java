@@ -75,7 +75,7 @@ public class ExponentKernelModule extends ReactContextBaseJavaModule implements 
   }
 
   public static void queueEvent(ExponentKernelModuleProvider.KernelEvent event) {
-    ExponentKernelModuleProvider.sEventQueue.add(event);
+    ExponentKernelModuleProvider.getSEventQueue().add(event);
 
     if (sInstance != null) {
       sInstance.consumeEventQueue();
@@ -89,23 +89,23 @@ public class ExponentKernelModule extends ReactContextBaseJavaModule implements 
 
   @Override
   public void consumeEventQueue() {
-    if (ExponentKernelModuleProvider.sEventQueue.size() == 0) {
+    if (ExponentKernelModuleProvider.getSEventQueue().size() == 0) {
       return;
     }
 
-    ExponentKernelModuleProvider.KernelEvent event = ExponentKernelModuleProvider.sEventQueue.remove();
+    ExponentKernelModuleProvider.KernelEvent event = ExponentKernelModuleProvider.getSEventQueue().remove();
 
     String eventId = UUID.randomUUID().toString();
-    event.data.putString("eventId", eventId);
+    event.getData().putString("eventId", eventId);
 
-    if (event.callback != null) {
-      sKernelEventCallbacks.put(eventId, event.callback);
+    if (event.getCallback() != null) {
+      sKernelEventCallbacks.put(eventId, event.getCallback());
     }
 
     try {
       getReactApplicationContext()
         .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-        .emit(event.name, event.data);
+        .emit(event.getName(), event.getData());
     } catch (Exception e) {
       onEventFailure(eventId, e.getMessage());
     }

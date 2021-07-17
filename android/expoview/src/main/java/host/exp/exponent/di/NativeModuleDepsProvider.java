@@ -6,6 +6,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
 import com.facebook.proguard.annotations.DoNotStrip;
 

@@ -154,11 +154,11 @@ class DevMenuManager {
     ExponentKernelModule.queueEvent(
       "ExponentKernel.requestToCloseDevMenu", Arguments.createMap(),
       object : ExponentKernelModuleProvider.KernelEventCallback {
-        override fun onEventSuccess(result: ReadableMap) {
+        override fun onEventSuccess(result: ReadableMap?) {
           hideInActivity(activity)
         }
 
-        override fun onEventFailure(errorMessage: String) {
+        override fun onEventFailure(errorMessage: String?) {
           hideInActivity(activity)
         }
       }
