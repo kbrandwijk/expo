@@ -12,8 +12,8 @@ import com.facebook.react.uimanager.ViewManager;
 
 import org.json.JSONException;
 import org.unimodules.adapters.react.ReactModuleRegistryProvider;
-import org.unimodules.core.interfaces.Package;
-import org.unimodules.core.interfaces.SingletonModule;
+import expo.modules.core.interfaces.Package;
+import expo.modules.core.interfaces.SingletonModule;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

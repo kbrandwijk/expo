@@ -7,7 +7,7 @@ import com.facebook.react.views.text.ReactFontManager;
 import java.util.Collections;
 import java.util.List;
 
-import org.unimodules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.InternalModule;
 
 import expo.modules.interfaces.font.FontManagerInterface;
 

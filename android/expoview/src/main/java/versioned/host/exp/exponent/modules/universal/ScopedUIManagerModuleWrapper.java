@@ -5,7 +5,7 @@ import android.content.Intent;
 import com.facebook.react.bridge.ReactContext;
 
 import org.unimodules.adapters.react.services.UIManagerModuleWrapper;
-import org.unimodules.core.interfaces.ActivityEventListener;
+import expo.modules.core.interfaces.ActivityEventListener;
 
 import java.util.concurrent.CopyOnWriteArraySet;
 

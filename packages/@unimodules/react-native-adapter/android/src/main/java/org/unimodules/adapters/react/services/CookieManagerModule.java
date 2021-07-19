@@ -8,7 +8,7 @@ import java.net.CookieHandler;
 import java.util.Collections;
 import java.util.List;
 
-import org.unimodules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.InternalModule;
 
 public class CookieManagerModule extends ForwardingCookieHandler implements InternalModule, NativeModule {
   private static final String TAG = "CookieManagerModule";

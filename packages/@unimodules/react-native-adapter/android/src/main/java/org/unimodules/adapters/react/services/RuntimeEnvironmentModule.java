@@ -2,8 +2,8 @@ package org.unimodules.adapters.react.services;
 
 import com.facebook.react.modules.systeminfo.ReactNativeVersion;
 
-import org.unimodules.core.interfaces.InternalModule;
-import org.unimodules.core.interfaces.RuntimeEnvironmentInterface;
+import expo.modules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.RuntimeEnvironmentInterface;
 
 import java.util.Collections;
 import java.util.List;

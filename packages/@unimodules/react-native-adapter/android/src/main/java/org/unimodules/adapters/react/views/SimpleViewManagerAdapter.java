@@ -11,9 +11,9 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import org.unimodules.core.ModuleRegistry;
-import org.unimodules.core.ViewManager;
-import org.unimodules.core.interfaces.RegistryLifecycleListener;
+import expo.modules.core.ModuleRegistry;
+import expo.modules.core.ViewManager;
+import expo.modules.core.interfaces.RegistryLifecycleListener;
 
 public class SimpleViewManagerAdapter<M extends ViewManager<V>, V extends View> extends SimpleViewManager<V> implements RegistryLifecycleListener {
   private M mViewManager;

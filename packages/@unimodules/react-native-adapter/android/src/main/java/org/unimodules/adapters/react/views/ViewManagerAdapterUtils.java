@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.unimodules.adapters.react.ArgumentsHelper;
-import org.unimodules.core.ModuleRegistry;
-import org.unimodules.core.ViewManager;
+import expo.modules.core.ModuleRegistry;
+import expo.modules.core.ViewManager;
 
 public class ViewManagerAdapterUtils {
   /* package */ static String getViewManagerAdapterName(ViewManager viewManager) {

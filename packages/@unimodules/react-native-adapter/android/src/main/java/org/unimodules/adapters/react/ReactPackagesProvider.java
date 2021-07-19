@@ -2,7 +2,7 @@ package org.unimodules.adapters.react;
 
 import com.facebook.react.ReactPackage;
 
-import org.unimodules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.InternalModule;
 
 import java.util.ArrayList;
 import java.util.Collection;

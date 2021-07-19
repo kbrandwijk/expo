@@ -18,12 +18,12 @@ import expo.modules.interfaces.permissions.Permissions
 import expo.modules.interfaces.permissions.PermissionsResponse
 import expo.modules.interfaces.permissions.PermissionsResponseListener
 import expo.modules.interfaces.permissions.PermissionsStatus
-import org.unimodules.core.ModuleRegistry
-import org.unimodules.core.Promise
-import org.unimodules.core.interfaces.ActivityProvider
-import org.unimodules.core.interfaces.InternalModule
-import org.unimodules.core.interfaces.LifecycleEventListener
-import org.unimodules.core.interfaces.services.UIManager
+import expo.modules.core.ModuleRegistry
+import expo.modules.core.Promise
+import expo.modules.core.interfaces.ActivityProvider
+import expo.modules.core.interfaces.InternalModule
+import expo.modules.core.interfaces.LifecycleEventListener
+import expo.modules.core.interfaces.services.UIManager
 import java.util.*
 import kotlin.collections.HashMap
 

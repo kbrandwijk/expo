@@ -4,8 +4,8 @@ import android.content.Context
 import com.facebook.react.ReactApplication
 import com.facebook.react.ReactInstanceManager
 import org.unimodules.apploader.HeadlessAppLoader
-import org.unimodules.core.interfaces.Consumer
-import org.unimodules.core.interfaces.DoNotStrip
+import expo.modules.core.interfaces.Consumer
+import expo.modules.core.interfaces.DoNotStrip
 
 private val appRecords: MutableMap<String, ReactInstanceManager> = mutableMapOf()
 

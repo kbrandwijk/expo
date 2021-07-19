@@ -4,7 +4,7 @@ import android.content.Context
 import abi40_0_0.com.facebook.react.ReactApplication
 import abi40_0_0.com.facebook.react.ReactInstanceManager
 import org.unimodules.apploader.HeadlessAppLoader
-import org.unimodules.core.interfaces.Consumer
+import expo.modules.core.interfaces.Consumer
 import abi40_0_0.org.unimodules.core.interfaces.DoNotStrip
 
 private val appRecords: MutableMap<String, ReactInstanceManager> = mutableMapOf()

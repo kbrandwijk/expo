@@ -10,9 +10,9 @@ import org.unimodules.adapters.react.services.EventEmitterModule;
 import org.unimodules.adapters.react.services.FontManagerModule;
 import org.unimodules.adapters.react.services.RuntimeEnvironmentModule;
 import org.unimodules.adapters.react.services.UIManagerModuleWrapper;
-import org.unimodules.core.BasePackage;
-import org.unimodules.core.interfaces.InternalModule;
-import org.unimodules.core.interfaces.Package;
+import expo.modules.core.BasePackage;
+import expo.modules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.Package;
 
 import java.util.Arrays;
 import java.util.List;

@@ -3,7 +3,7 @@ package org.unimodules.adapters.react;
 import com.facebook.react.bridge.BaseJavaModule;
 import com.facebook.react.bridge.NativeModule;
 
-import org.unimodules.core.ModuleRegistry;
+import expo.modules.core.ModuleRegistry;
 
 /**
  * {@link ModuleRegistryReadyNotifier} is exported as a native module

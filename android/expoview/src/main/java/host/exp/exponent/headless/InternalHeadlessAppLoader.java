@@ -17,8 +17,8 @@ import org.json.JSONObject;
 import org.unimodules.adapters.react.ReactModuleRegistryProvider;
 import org.unimodules.apploader.AppLoaderPackagesProviderInterface;
 import org.unimodules.apploader.AppLoaderProvider;
-import org.unimodules.core.interfaces.Package;
-import org.unimodules.core.interfaces.SingletonModule;
+import expo.modules.core.interfaces.Package;
+import expo.modules.core.interfaces.SingletonModule;
 
 import java.util.List;
 import java.util.Map;

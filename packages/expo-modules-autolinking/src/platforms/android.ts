@@ -52,7 +52,7 @@ async function generatePackageListFileContentAsync(
 
 import java.util.Arrays;
 import java.util.List;
-import org.unimodules.core.interfaces.Package;
+import expo.modules.core.interfaces.Package;
 
 public class ExpoModulesPackageList {
   public List<Package> getPackageList() {

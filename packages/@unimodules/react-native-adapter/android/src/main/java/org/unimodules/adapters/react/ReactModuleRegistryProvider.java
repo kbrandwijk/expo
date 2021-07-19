@@ -5,14 +5,14 @@ import android.content.Context;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.ReactApplicationContext;
 
-import org.unimodules.core.ExportedModule;
-import org.unimodules.core.ModuleRegistry;
-import org.unimodules.core.ModuleRegistryProvider;
-import org.unimodules.core.ViewManager;
-import org.unimodules.core.interfaces.Function;
-import org.unimodules.core.interfaces.InternalModule;
-import org.unimodules.core.interfaces.Package;
-import org.unimodules.core.interfaces.SingletonModule;
+import expo.modules.core.ExportedModule;
+import expo.modules.core.ModuleRegistry;
+import expo.modules.core.ModuleRegistryProvider;
+import expo.modules.core.ViewManager;
+import expo.modules.core.interfaces.Function;
+import expo.modules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.Package;
+import expo.modules.core.interfaces.SingletonModule;
 
 import java.util.ArrayList;
 import java.util.Collection;

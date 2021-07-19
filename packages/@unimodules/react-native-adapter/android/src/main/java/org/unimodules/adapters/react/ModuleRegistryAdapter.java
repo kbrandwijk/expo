@@ -7,8 +7,8 @@ import com.facebook.react.uimanager.ViewManager;
 
 import org.unimodules.adapters.react.views.SimpleViewManagerAdapter;
 import org.unimodules.adapters.react.views.ViewGroupManagerAdapter;
-import org.unimodules.core.ModuleRegistry;
-import org.unimodules.core.interfaces.InternalModule;
+import expo.modules.core.ModuleRegistry;
+import expo.modules.core.interfaces.InternalModule;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,7 @@ public class ModuleRegistryAdapter implements ReactPackage {
 
     nativeModulesList.add(new NativeModulesProxy(reactContext, moduleRegistry));
 
-    // Add listener that will notify org.unimodules.core.ModuleRegistry when all modules are ready
+    // Add listener that will notify expo.modules.core.ModuleRegistry when all modules are ready
     nativeModulesList.add(new ModuleRegistryReadyNotifier(moduleRegistry));
 
     ReactPackagesProvider reactPackagesProvider = moduleRegistry.getModule(ReactPackagesProvider.class);
@@ -62,7 +62,7 @@ public class ModuleRegistryAdapter implements ReactPackage {
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
     List<ViewManager> viewManagerList = new ArrayList<>(mModuleRegistryProvider.getReactViewManagers(reactContext));
 
-    for (org.unimodules.core.ViewManager viewManager : mModuleRegistryProvider.getViewManagers(reactContext)) {
+    for (expo.modules.core.ViewManager viewManager : mModuleRegistryProvider.getViewManagers(reactContext)) {
       switch (viewManager.getViewManagerType()) {
         case GROUP:
           viewManagerList.add(new ViewGroupManagerAdapter(viewManager));

@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.facebook.react.bridge.Arguments;
 
-import org.unimodules.core.Promise;
+import expo.modules.core.Promise;
 
 import java.util.List;
 

@@ -2,8 +2,8 @@ package org.unimodules.adapters.react;
 
 import com.facebook.react.bridge.Dynamic;
 
-import org.unimodules.core.arguments.MapArguments;
-import org.unimodules.core.arguments.ReadableArguments;
+import expo.modules.core.arguments.MapArguments;
+import expo.modules.core.arguments.ReadableArguments;
 
 public class ArgumentsHelper {
   public static Object getNativeArgumentForExpectedClass(Dynamic argument, Class<?> expectedArgumentClass) {

@@ -11,8 +11,8 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 import java.util.Collections;
 import java.util.List;
 
-import org.unimodules.core.interfaces.InternalModule;
-import org.unimodules.core.interfaces.services.EventEmitter;
+import expo.modules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.services.EventEmitter;
 
 public class EventEmitterModule implements EventEmitter, InternalModule {
   private ReactContext mReactContext;

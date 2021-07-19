@@ -10,12 +10,12 @@ import com.facebook.react.uimanager.IllegalViewOperationException;
 import com.facebook.react.uimanager.NativeViewHierarchyManager;
 import com.facebook.react.uimanager.UIManagerModule;
 
-import org.unimodules.core.interfaces.ActivityEventListener;
-import org.unimodules.core.interfaces.ActivityProvider;
-import org.unimodules.core.interfaces.InternalModule;
-import org.unimodules.core.interfaces.JavaScriptContextProvider;
-import org.unimodules.core.interfaces.LifecycleEventListener;
-import org.unimodules.core.interfaces.services.UIManager;
+import expo.modules.core.interfaces.ActivityEventListener;
+import expo.modules.core.interfaces.ActivityProvider;
+import expo.modules.core.interfaces.InternalModule;
+import expo.modules.core.interfaces.JavaScriptContextProvider;
+import expo.modules.core.interfaces.LifecycleEventListener;
+import expo.modules.core.interfaces.services.UIManager;
 
 import java.lang.ref.WeakReference;
 import java.util.Arrays;

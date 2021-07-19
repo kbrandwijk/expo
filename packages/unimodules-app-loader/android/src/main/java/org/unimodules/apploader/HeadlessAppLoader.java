@@ -2,7 +2,7 @@ package org.unimodules.apploader;
 
 import android.content.Context;
 
-import org.unimodules.core.interfaces.Consumer;
+import expo.modules.core.interfaces.Consumer;
 
 public interface HeadlessAppLoader {
 
