@@ -7,7 +7,7 @@ import expo.modules.interfaces.permissions.PermissionsResponseListener
 import host.exp.exponent.di.NativeModuleDepsProvider
 import host.exp.exponent.kernel.ExperienceKey
 import host.exp.exponent.kernel.services.ExpoKernelServiceRegistry
-import org.unimodules.adapters.react.permissions.PermissionsService
+import expo.modules.adapters.react.permissions.PermissionsService
 import expo.modules.core.ModuleRegistry
 import javax.inject.Inject
 

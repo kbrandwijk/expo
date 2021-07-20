@@ -3,7 +3,7 @@ package abi39_0_0.org.unimodules.adapters.react.apploader
 import android.content.Context
 import abi39_0_0.com.facebook.react.ReactApplication
 import abi39_0_0.com.facebook.react.ReactInstanceManager
-import org.unimodules.apploader.HeadlessAppLoader
+import expo.modules.apploader.HeadlessAppLoader
 import expo.modules.core.interfaces.Consumer
 import abi39_0_0.org.unimodules.core.interfaces.DoNotStrip
 

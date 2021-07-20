@@ -1,11 +1,11 @@
-package abi41_0_0.org.unimodules.adapters.react.apploader
+package expo.modules.adapters.react.apploader
 
 import android.content.Context
-import abi41_0_0.com.facebook.react.ReactApplication
-import abi41_0_0.com.facebook.react.ReactInstanceManager
+import com.facebook.react.ReactApplication
+import com.facebook.react.ReactInstanceManager
 import expo.modules.apploader.HeadlessAppLoader
 import expo.modules.core.interfaces.Consumer
-import abi41_0_0.org.unimodules.core.interfaces.DoNotStrip
+import expo.modules.core.interfaces.DoNotStrip
 
 private val appRecords: MutableMap<String, ReactInstanceManager> = mutableMapOf()
 

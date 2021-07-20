@@ -11,7 +11,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
 import org.json.JSONException;
-import org.unimodules.adapters.react.ReactModuleRegistryProvider;
+import expo.modules.adapters.react.ReactModuleRegistryProvider;
 import expo.modules.core.interfaces.Package;
 import expo.modules.core.interfaces.SingletonModule;
 
