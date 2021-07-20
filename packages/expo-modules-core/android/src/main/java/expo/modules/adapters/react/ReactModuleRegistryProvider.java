@@ -74,7 +74,8 @@ public class ReactModuleRegistryProvider extends ModuleRegistryProvider {
     return singletonModules;
   }
 
-  /* package */ Collection<ViewManager> getViewManagers(Context context) {
+  // TODO: change access to package private when react-native-adapter was removed.
+  public Collection<ViewManager> getViewManagers(Context context) {
     if (mViewManagers != null) {
       return mViewManagers;
     }
@@ -84,7 +85,8 @@ public class ReactModuleRegistryProvider extends ModuleRegistryProvider {
     return mViewManagers;
   }
 
-  /* package */ Collection<com.facebook.react.uimanager.ViewManager> getReactViewManagers(ReactApplicationContext context) {
+  // TODO: change access to package private when react-native-adapter was removed.
+  public Collection<com.facebook.react.uimanager.ViewManager> getReactViewManagers(ReactApplicationContext context) {
     if (mReactViewManagers != null) {
       return mReactViewManagers;
     }

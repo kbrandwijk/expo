@@ -78,7 +78,7 @@ async function findAndroidPackagesAsync(modules: ModuleDescriptor[]): Promise<st
 
         // Very naive check to skip non-expo packages
         if (
-          !/\bimport\s+org\.unimodules\.core\.(interfaces\.Package|BasePackage)\b/.test(fileContent)
+          !/\bimport\s+expo\.modules\.core\.(interfaces\.Package|BasePackage)\b/.test(fileContent)
         ) {
           continue;
         }
